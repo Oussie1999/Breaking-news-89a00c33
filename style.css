@@ -1,0 +1,39 @@
+.navbar { 
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	border: 1px solid #708090;
+	background-color: #708090;
+
+}
+
+.content { 
+	text-align: left;
+	background: 	#C0C0C0;
+	border: 1px solid #C0C0C0;
+	justify-content: center;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	 }	
+
+.content>h1 {
+	width: 100%;
+	text-align: center;
+}
+
+.news {
+	width: 33%;
+}
+
+#breaking {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	order: -1;
+	font-size: large;
+}
+
+#breaking>h3 {
+	font-size: 250%;
+}
